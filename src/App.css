@@ -1,22 +1,118 @@
+body {
+  background: url(./images/background-app.png);
+  background-size: cover;
+  line-height: 1.42857143;
+  font-family: 'Baloo Bhaijaan', cursive;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+  text-align: center;
 }
 
 .App-link {
   color: #09d3ac;
+}
+
+.blur {
+  background: rgba(255, 255, 255, 0.5);
+  min-height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  padding-right: 45px;
+  padding-left: 45px;
+}
+
+.logo {
+  top: -20px;
+  vertical-align: middle;
+  width: 55%;
+  padding-top: 50px;
+}
+
+.button {
+  display: block;
+  background: #0b9496;
+  font-size: 20px;
+  padding: 11px;
+  width: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #e9eded;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 20px;
+  font-family: 'Baloo Bhaijaan', cursive;
+}
+
+.account {
+  color: #337e7f;
+  cursor: pointer;
+  font-size: 13px;
+  margin-top: 25px;
+}
+
+.sep {
+  color: #afafaf;
+  font-family: 'Courier New', Courier, monospace;
+  ;
+}
+
+.main_a {
+  margin-top: 40px;
+  font-family: 'Baloo Bhaijaan', cursive;
+}
+
+.download {
+  margin-top: 30px;
+}
+
+.button:hover {
+  background-color: #0b949679;
+}
+
+.account:hover {
+  color: #337e7f64;
+}
+
+.footer {
+  margin-top: 25px;
+  color: grey;
+  font-size: 10px;
+
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+.foursquare {
+  width: 40%;
+  margin-top: 15px;
+}
+
+a:hover {
+  color: rgba(128, 128, 128, 0.687);
+}
+
+.fa {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+.cont {
+  height: 100vh
 }
